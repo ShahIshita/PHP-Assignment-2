@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
     $_SESSION["username"] = $username;
 
-    header("Location: home.php");
+    header("Location: index.php");
     exit();
 }
 ?>
@@ -22,22 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
-<style>
-    .myForm {
-        min-width: 500px;
-        position: absolute;
-        text-align: center;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 2.5rem
-    } 
- @media (max-width: 500px) {
-   .myForm {
-       min-width: 90%;
-      }
-   }
-  </style>
+<link rel="stylesheet" href="style/style.css"> 
 </head>
 <body>
 
@@ -53,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     <div class="form-group">
       <input type="submit" name="submit" class="btn btn-success btn-lg" value="Login" />
-      <a class="btn btn-success btn-lg" href="home.html">Home</a>
+      <a class="btn btn-success btn-lg" href="home.php">Home</a>
     </div>
     
   </form>

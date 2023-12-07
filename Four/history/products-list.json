@@ -1,0 +1,51 @@
+[
+    {
+        "productName": "flower port",
+        "productPrice": "300",
+        "productImage": "1701952477-flower-port.jpg",
+        "productDescription": "it is very good in shape",
+        "productStatus": "active"
+    },
+    {
+        "productName": "Chocolate",
+        "productPrice": "200",
+        "productImage": "1701952525-chocolate.webp",
+        "productDescription": "it is very tasty",
+        "productStatus": "active"
+    },
+    {
+        "productName": "Chocolate",
+        "productPrice": "200",
+        "productImage": "1701952545-chocolate.webp",
+        "productDescription": "it is very tasty",
+        "productStatus": "active"
+    },
+    {
+        "productName": "Chocolate",
+        "productPrice": "200",
+        "productImage": "1701952547-chocolate.webp",
+        "productDescription": "it is very tasty",
+        "productStatus": "active"
+    },
+    {
+        "productName": "pen",
+        "productPrice": "100",
+        "productImage": "1701952639-pen.jpg",
+        "productDescription": "it is in blue color",
+        "productStatus": "active"
+    },
+    {
+        "productName": "waller paper",
+        "productPrice": "50",
+        "productImage": "1701952872-beautiful-colorful-firework-display-night-celebrate.jpg",
+        "productDescription": "good in display",
+        "productStatus": "active"
+    },
+    {
+        "productName": "pen",
+        "productPrice": "200",
+        "productImage": "1701953464-pen.jpg",
+        "productDescription": "good in color",
+        "productStatus": "active"
+    }
+]
